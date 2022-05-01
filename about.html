@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>Music+ Punjabi</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.lineicons.com/3.0/lineicons.css">
+    </head>
+    <body>
+
+<section class="sub-header">
+    <nav>
+       <div class="nav-links" id= "navLinks">
+
+        <i class="lni lni-close"onclick="hideMenu()"></i>
+           <ul>
+            <li><a href="index.html">Home</a></li>  
+            <li><a href="about.html">Terms And Conditions</a></li>
+            <li><a href="trending.html">Trending Songs</a></li>
+            <li><a href="newsongs.html">New Songs</a></li>
+            <li><a href="oldsongs.html">Old Songs</a></li>
+            <li><a href="downloads.html">Popular Creators</a></li>
+
+           </ul>
+       </div>
+       <i class="lni lni-control-panel"onclick="showMenu()"></i>
+    </nav>
+    <div class="text-box">
+
+    <hi>Know More About Our Terms And Conditions!</h1>
+    <p>
+        India's Best Punjabi Music Website Where You Can Upload Your Own Music And Download Music For Free. Safe And Secure <br> Contact Email- musicpunjabicontact@gmail.com
+    </p>
+    <a href="copyright.html" class="hero-btn">Terms And Conditions</a>
+</div>
+
+
+
+
+<script>
+    var navlinks = documents.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0"
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px"
+    }
+</script>
+
+
+    </body>
+</html>
