@@ -11,6 +11,9 @@ background-position: center;
 background-size: fill;
 position: relative;
 }
+html{
+scroll-behavior: smooth;
+}
 nav{
    display: flex; 
    padding: 2% 6%;
